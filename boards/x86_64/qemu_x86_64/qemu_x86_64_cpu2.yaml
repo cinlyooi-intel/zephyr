@@ -1,0 +1,9 @@
+identifier: qemu_x86_64_cpu2
+name: QEMU Emulation for X86_64 (2 CPUs)
+type: qemu
+simulation: qemu
+arch: x86_64
+toolchain:
+  - zephyr
+testing:
+  default: true
